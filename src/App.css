@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  @apply bg-cover bg-center bg-no-repeat h-screen;
+  background-image: url("./assets/Cricket.jpg");
+  width: 100vw;
+  height: 100vh;
+}
+
+.App{
+  /* @apply bg-cover bg-center bg-no-repeat h-screen; */
+  /* background-image: url("./assets/Cricket.jpg"); */
+  background-color: rgba(0, 0, 0, 0.207);
+  -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+  width: 100%;
+  height: 100%;
+  
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.bg_blur{
+  -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+}
